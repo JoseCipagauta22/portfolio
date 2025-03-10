@@ -1,68 +1,61 @@
-<main class="main" style="height: 100%; background-color: black; scrollbar-width: none;">
-  <div style="width: 100%; height: 10%; background-color: black;">
-    
+<main class="grid">
+  <div class="info">
+    <div style="color: aliceblue; width: 80%;">
+      <p style="font-size: 20px; color: green; letter-spacing: 0.2px; margin-bottom: 0px;"> Hello world, I am</p>
+      <p style="font-size: 25px; color: rgb(161, 161, 150); margin-top: 10px;"> Jose Cipagauta </p>
+      <p style="font-size: 20px; color: rgb(161, 161, 150); margin-top: 10px;"> I'm a full stack web developer, let me help you with your project </p> 
+    </div>
+    <div style="margin-top: 20px; width: 80%;">
+      <button 
+        mat-stroked-button color="primary" 
+        style="border: 1px solid green; color: green; overlay: inherit;">
+        Contact me
+      </button>
+    </div>
   </div>
-
-  <!-- <div style="width: 100%; height: 400px; background-color: rgb(0, 0, 0); display: flex;"> -->
-    <div style="width: 100%; height: 90%; background-color: rgb(0, 0, 0); display: flex;">
-      <div class="div1" style=" width: 50%; text-align: left; font-weight: 800; color: rgb(160, 168, 164);">
-        <div style="margin: 20% 15% 15% 15%;">
-          <div style="font-size: 20px; color: green; letter-spacing: 0.2px; margin-bottom: 0px;">
-            Hello world, I am   
-          </div>
-          
-        
-
-          <div style="font-size: 25px; color: rgb(161, 161, 150); margin-top: 10px;">
-            Jose Cipagauta
-          </div>
-
-          <!-- <div style="color: rgb(87, 92, 88); font-size: 34px; line-height: 30px; margin-top: 14px;">
-            I build things for the web
-          </div> -->
-
-          <div style="font-size: 20px; color: rgb(161, 161, 150); margin-top: 10px;">
-            I'm a full stack web developer let me help you with your project
-          </div>
-          <div style="margin-top: 20px;">
-            <button 
-              mat-stroked-button color="primary" 
-              style="border: 1px solid green; color: green; overlay: inherit;">
-              Contact me
-            </button>
-          </div>
-        </div>
+  
+  <div id="exper" style="overflow-y: scroll;">
+    <div id="about-me" style="height: 100vh; background-color: #000000;">
+      <div id="avatar" style=" background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2) 20%, transparent 70%); box-shadow: 0 0 15px rgba(79, 182, 79, 0.938); height: 180px; border-radius: 110px; width: 170px; overflow: hidden;">
+        <img src="../assets/image.jpg" style="width: 100%; height: 100%; object-fit: cover; overflow-inline: hidden;" alt="">
       </div>
-        
-
-      <div style="height: 100%; width: 50%; overflow-y: scroll; scrollbar-width: none;" class="div2">
-        <img src="https://www.itprotoday.com/sites/itprotoday.com/files/bad%20code%20practices.jpg" alt="" style="border-left: 2px solid rgb(22, 53, 22); height: 90%; width: 100%;">
-        <img src="https://www.itprotoday.com/sites/itprotoday.com/files/bad%20code%20practices.jpg" alt="" style="border-left: 2px solid rgb(22, 53, 22); height: 90%; width: 100%;">
-        <img src="https://www.itprotoday.com/sites/itprotoday.com/files/bad%20code%20practices.jpg" alt="" style="border-left: 2px solid rgb(22, 53, 22); height: 90%; width: 100%;">
-        <img src="https://www.itprotoday.com/sites/itprotoday.com/files/bad%20code%20practices.jpg" alt="" style="border-left: 2px solid rgb(22, 53, 22); height: 90%; width: 100%;">
-      </div>
-
+      <h1 style="color: green; font-weight: bold;">
+        About me:  
+      </h1>
+      <p style="font-size: 20px; color: rgb(161, 161, 150); font-weight: bold; padding: 0% 10% 10% 10%;">I am passionate about programming, 
+        constantly learning new technologies and participating in challenging projects. I am a creative, 
+        purposeful person, with problem-solving skills, communication skills, critical thinking and teamwork.</p> 
     </div>
-
-    <!-- <div style="border-right: 1px solid rgb(22, 53, 22); height: 100%; width: 50%; color: white; font-size: 60px; text-align: center; font: bold;" class="container div1">
-      <div style="" class="centered-element">
-        <div style="font-size: 30px;" class="">
-          Hello world, I'm Jose 
-        </div>
-        a full stack developer 
-        <div>
-          <button 
-            mat-stroked-button color="primary" 
-            (click)="whatsapp()"
-            style="border: 1px solid green; color: green; overlay: inherit;">
-            Contact me
-          </button>
-        </div>
-      </div>
+    <div style="height: auto; background-color: rgb(0, 0, 0);">
+      <h1 style="color: green; font-weight: bold;">
+        Experience:  
+      </h1>
+      <p style="font-size: 20px; color: rgb(161, 161, 150); font-weight: bold; padding: 0% 10% 10% 10%;"> 
+        Web developer with two and a half years of experience, with solid knowledge in front-end development using HTML, 
+        CSS, JavaScript, TypeScript, Angular, responsive design, and back-end experience with NestJS/Express, MySQL, and PostgreSQL
+      </p> 
     </div>
+    <div style="height: 100vh; background-color: rgb(250, 244, 244);">
+      <mat-form-field appearance="outline" class="mat-form-field-appearance-outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput placeholder="Ingrese su nombre">
+      </mat-form-field>
 
+      <mat-form-field appearance="outline">
+        <mat-label>Correo</mat-label>
+        <input matInput placeholder="Ingrese su correo">
+      </mat-form-field>
 
-    <div style="height: 100%; width: 50%; " class="div2">
-      <img src="https://www.itprotoday.com/sites/itprotoday.com/files/bad%20code%20practices.jpg" alt="" style="height: 600px; width: 100%;">
-    </div> -->
+      <mat-form-field style="border: green !important;">
+        <mat-label>Textarea</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+
+      <button 
+        mat-stroked-button color="primary" 
+        style="border: 1px solid green; color: green; overlay: inherit;">
+        Send
+      </button>
+    </div>
+  </div>
 </main>
