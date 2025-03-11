@@ -1,0 +1,22 @@
+<header>
+  <button 
+      (click)="notifyParent({elemeToScroll:'aboutMe', evento: $event})"
+      mat-stroked-button color="primary" 
+      style="border: none; color: green; overlay: inherit;">
+      About me
+  </button>
+  
+  <button 
+    (click)="notifyParent({elemeToScroll:'experience', evento: $event})"
+    mat-stroked-button color="primary" 
+    style="border: none; color: green; overlay: inherit;">
+    Experience
+  </button>
+
+  <button 
+    (click)="notifyParent({elemeToScroll:'contacMe', evento: $event})"
+    mat-stroked-button color="primary" 
+    style="border: none; color: green; overlay: inherit;">
+    contact me
+  </button>
+</header>
