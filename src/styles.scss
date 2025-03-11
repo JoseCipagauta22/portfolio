@@ -2,28 +2,3 @@
 
 html, body { height: 100%; margin: 0; }
 // body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-/* Cambiar el color del borde */
-.mat-form-field-appearance-outline .mat-form-field-outline {
-    border-color: #4CAF50 !important; /* Cambia el color del borde a verde */
-  }
-  
-  /* Cambiar el color de la etiqueta */
-  .mat-form-field-appearance-outline .mat-form-field-label {
-    color: #4CAF50 !important; /* Cambia el color de la etiqueta a verde */
-  }
-  
-  /* Cambiar el color de la línea de enfoque (cuando se hace clic) */
-  .mat-form-field-appearance-outline .mat-form-field-ripple {
-    background-color: #4CAF50 !important; /* Cambia el color de la línea de enfoque a verde */
-  }
-  
-  /* Cambiar el color del texto del input */
-  .mat-form-field-appearance-outline .mat-input-element {
-    color: #000; /* Cambia el color del texto dentro del input a negro */
-  }
-  
-  /* Cambiar el color de la línea de error (si existe) */
-  .mat-form-field-appearance-outline .mat-form-field-subscript-wrapper {
-    color: red; /* Cambia el color de la línea de error a rojo */
-  }

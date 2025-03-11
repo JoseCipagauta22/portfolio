@@ -1,4 +1,10 @@
 <main class="grid">
+
+  <header>
+    <a href="#about-me" style="color: green;">About me</a>
+    <a href="#experience" style="color: green;">Experience</a>
+  </header>
+
   <div class="info">
     <div style="color: aliceblue; width: 80%;">
       <p style="font-size: 20px; color: green; letter-spacing: 0.2px; margin-bottom: 0px;"> Hello world, I am</p>
@@ -9,13 +15,13 @@
       <button 
         mat-stroked-button color="primary" 
         style="border: 1px solid green; color: green; overlay: inherit;">
-        Contact me
+          <a href="#contact" style="color: green; text-decoration: none;">Contact me</a> 
       </button>
     </div>
   </div>
   
   <div id="exper" style="overflow-y: scroll;">
-    <div id="about-me" style="height: 100vh; background-color: #000000;">
+    <div id="about-me" style="height: 90vh; background-color: #000000;">
       <div id="avatar" style=" background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2) 20%, transparent 70%); box-shadow: 0 0 15px rgba(79, 182, 79, 0.938); height: 180px; border-radius: 110px; width: 170px; overflow: hidden;">
         <img src="assets/image.jpg" style="width: 100%; height: 100%; object-fit: cover; overflow-inline: hidden;" alt="">
       </div>
@@ -26,7 +32,7 @@
         constantly learning new technologies and participating in challenging projects. I am a creative, 
         purposeful person, with problem-solving skills, communication skills, critical thinking and teamwork.</p> 
     </div>
-    <div style="height: auto; background-color: rgb(0, 0, 0);">
+    <div id="experience" style="height: 90vh; background-color: rgb(0, 0, 0);">
       <h1 style="color: green; font-weight: bold;">
         Experience:  
       </h1>
@@ -35,7 +41,7 @@
         CSS, JavaScript, TypeScript, Angular, responsive design, and back-end experience with NestJS/Express, MySQL, and PostgreSQL
       </p> 
     </div>
-    <div style="height: 100vh; background-color: rgb(250, 244, 244);">
+    <div id="contact" style="height: 90vh; background-color: rgb(250, 244, 244);">
       <mat-form-field appearance="outline" class="mat-form-field-appearance-outline">
         <mat-label>Nombre</mat-label>
         <input matInput placeholder="Ingrese su nombre">
@@ -54,7 +60,7 @@
       <button 
         mat-stroked-button color="primary" 
         style="border: 1px solid green; color: green; overlay: inherit;">
-        Send
+          Send
       </button>
     </div>
   </div>
